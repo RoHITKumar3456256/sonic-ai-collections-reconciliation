@@ -26,3 +26,4 @@ class CheckInboxResponse(BaseModel):
     new_messages_count: int
     processed_conversations: List[str]
     details: List[Dict[str, Any]]
+

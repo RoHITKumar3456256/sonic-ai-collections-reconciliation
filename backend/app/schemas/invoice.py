@@ -29,3 +29,4 @@ class InvoiceResponse(InvoiceBase):
     is_overdue: bool = False
     days_overdue: int = 0
     updated_at: Optional[str] = None
+

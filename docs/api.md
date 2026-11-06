@@ -134,3 +134,4 @@ Returns timestamped audit trail of all operator and system actions.
 
 ### `POST /api/demo/reset`
 Restores pristine initial seed data and clears demo transactions.
+

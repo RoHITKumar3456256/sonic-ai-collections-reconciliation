@@ -66,3 +66,4 @@ Reconciliation processes credit receipts against open invoices.
 - **Database Resilience**: Connects to live MongoDB URI if reachable; automatically falls back to high-fidelity in-memory `mongomock` so that evaluators can run the platform immediately without spinning up a local MongoDB server.
 - **AI Engine**: Google Gemini API with intelligent fallback rule engine for offline or unauthenticated testing.
 - **Email Service**: Outbound SMTP and inbound IMAP with full simulated testing endpoints.
+

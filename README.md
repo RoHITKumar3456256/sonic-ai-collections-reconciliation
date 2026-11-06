@@ -147,3 +147,4 @@ Recommended demonstration recording flow:
 - [x] **Debit Exclusions**: Debit bank rows (office rent, software vendor) are barred from receipt matching.
 - [x] **Idempotency**: Repetitive reminder sends or approval clicks do not duplicate payments or spam customers.
 - [x] **Audit Trail**: Every customer update, outbound reminder, and reconciliation decision is logged.
+

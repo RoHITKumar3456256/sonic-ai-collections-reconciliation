@@ -25,3 +25,4 @@ def update_organization_endpoint(payload: OrganizationUpdate):
         details=update_data
     )
     return updated
+

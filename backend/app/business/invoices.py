@@ -31,3 +31,4 @@ def calculate_overdue_status(invoice: Dict[str, Any], reference_date_str: str) -
         "is_overdue": False,
         "days_overdue": 0
     }
+

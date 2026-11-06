@@ -44,3 +44,4 @@ The invoices reflect key business and collections states:
    - `2026-10-15`: `SOFTWARE VENDOR (debit)` 1,200 USD debit. Excluded from receipt matching.
 7. **Non-Customer Receipt (No Match)**:
    - `2026-10-31`: `INTEREST PAID` 431.22 INR -> Flags as "No match found".
+

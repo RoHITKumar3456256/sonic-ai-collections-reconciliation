@@ -16,3 +16,4 @@ def get_health():
         "smtp_configured": bool(settings.SMTP_USERNAME and not settings.SMTP_USERNAME.startswith("your_")),
         "imap_configured": bool(settings.IMAP_USERNAME and not settings.IMAP_USERNAME.startswith("your_"))
     }
+

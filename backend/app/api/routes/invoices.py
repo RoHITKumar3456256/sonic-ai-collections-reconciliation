@@ -43,3 +43,4 @@ def get_single_invoice(invoice_id: str):
     if not inv:
         raise HTTPException(status_code=404, detail=f"Invoice {invoice_id} not found.")
     return enrich_invoice(inv, ref_date)
+

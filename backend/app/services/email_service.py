@@ -219,3 +219,4 @@ def poll_imap_inbox() -> List[Dict[str, Any]]:
         logger.warning(f"Error checking IMAP inbox: {e}")
 
     return results
+

@@ -60,3 +60,4 @@ def send_reminder_endpoint(payload: ReminderSendRequest):
     )
 
     return result
+

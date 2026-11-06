@@ -178,3 +178,4 @@ def test_reconciliation_approval_is_idempotent():
     # Verify payments collection has only 1 record
     all_payments = [p for p in repository.get_payments() if p["transaction_reference"] == "TXN904812"]
     assert len(all_payments) == 1
+

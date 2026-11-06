@@ -249,3 +249,4 @@ Incoming Message:
     except Exception as e:
         logger.error(f"Error calling Gemini API: {e}. Falling back to deterministic classifier.")
         return fallback_heuristic_classifier(email_text, subject, sender_email, customer, customer_invoices)
+

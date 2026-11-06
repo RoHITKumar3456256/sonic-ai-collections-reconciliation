@@ -259,3 +259,4 @@ def add_audit_log(
 def get_audit_logs(limit: int = 50) -> List[Dict[str, Any]]:
     db = get_database()
     return list(db.audit_logs.find({}, {"_id": 0}).sort("created_at", -1).limit(limit))
+

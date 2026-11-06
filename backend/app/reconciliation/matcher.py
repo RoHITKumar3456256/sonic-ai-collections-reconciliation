@@ -271,3 +271,4 @@ def apply_manual_selection(
         actor=actor,
         notes=notes or "Manually selected invoice approval"
     )
+

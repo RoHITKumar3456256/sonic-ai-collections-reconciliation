@@ -19,3 +19,4 @@ class SendReviewDraftRequest(BaseModel):
     edited_reply: str
     recipient: Optional[str] = None
     close_review: bool = True
+

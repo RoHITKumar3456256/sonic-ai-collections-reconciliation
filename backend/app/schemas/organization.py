@@ -48,3 +48,4 @@ class OrganizationUpdate(BaseModel):
 class OrganizationResponse(OrganizationBase):
     id: str = "org_acmecorp_001"
     updated_at: Optional[str] = None
+

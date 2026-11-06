@@ -24,3 +24,4 @@ class CustomerUpdate(BaseModel):
 
 class CustomerResponse(CustomerBase):
     updated_at: Optional[str] = None
+

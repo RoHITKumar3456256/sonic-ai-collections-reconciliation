@@ -35,3 +35,4 @@ def update_customer_endpoint(customer_id: str, payload: CustomerUpdate):
         details=update_data
     )
     return updated
+

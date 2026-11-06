@@ -8,3 +8,4 @@ router = APIRouter()
 @router.get("/payments", response_model=List[PaymentResponse])
 def get_payment_history():
     return repository.get_payments()
+

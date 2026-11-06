@@ -65,3 +65,4 @@ def validate_ai_draft_facts(
 
     is_valid = len(errors) == 0
     return is_valid, errors
+

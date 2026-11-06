@@ -79,3 +79,4 @@ $$\text{Confidence Score} = w_{\text{inv}} S_{\text{inv}} + w_{\text{name}} S_{\
 - **Debit Exclusion**: Debit entries (e.g. office rent, software vendor) are excluded from receipt matching.
 - **Deduplication**: Bank statement rows are keyed by their transaction reference; duplicate imports are ignored.
 - **Idempotent Approvals**: Re-clicking an approval executes an idempotency check, returning the existing payment record without double-deducting.
+
