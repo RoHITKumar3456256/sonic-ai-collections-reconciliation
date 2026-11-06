@@ -1,0 +1,33 @@
+{
+  "id": "org_acmecorp_001",
+  "name": "AcmeCorp India Pvt Ltd",
+  "registration_number": "U72900DL2021PTC123456",
+  "tax_id": "07AABCA1234F1Z8",
+  "accounts_email": "accounts@acmecorp.example.com",
+  "billing_address": {
+    "line1": "Level 5, Tower B, Cyber City",
+    "city": "Gurugram",
+    "state": "Haryana",
+    "postal_code": "122002",
+    "country": "India"
+  },
+  "bank_details": {
+    "bank_name": "HDFC Bank Ltd",
+    "account_name": "AcmeCorp India Pvt Ltd - Collections",
+    "account_number": "50200012345678",
+    "ifsc_code": "HDFC0001234",
+    "swift_code": "HDFCINBB",
+    "upi_id": "acmecorp@hdfcbank"
+  },
+  "policies": {
+    "tds_deduction_rate_indian": 0.10,
+    "tds_note": "Indian customers may deduct 10% TDS on invoice subtotal (excluding GST). Must submit Form 16A TDS certificate.",
+    "international_bank_charges": "International customers are responsible for all wire transfer, intermediary, and correspondent bank fees.",
+    "payment_terms_days": 30,
+    "working_hours": "Monday–Friday, 10:00–18:00 IST",
+    "dispute_review_window_days": 3,
+    "approval_required_for_extensions": true,
+    "approval_required_for_installments": true,
+    "accounts_team_contact": "accounts@acmecorp.example.com"
+  }
+}

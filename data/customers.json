@@ -1,0 +1,123 @@
+[
+  {
+    "id": "CUST-001",
+    "name": "Kestrel Foods Ltd",
+    "country": "India",
+    "contact_name": "Arun Verma",
+    "contact_email": "billing@kestrelfoods.example.com",
+    "phone": "+91 98111 22334",
+    "currency": "INR",
+    "tax_id": "27AABCK1234F1Z5",
+    "payment_terms": "Net 30"
+  },
+  {
+    "id": "CUST-002",
+    "name": "Orbis Packaging Solutions",
+    "country": "India",
+    "contact_name": "Pooja Hegde",
+    "contact_email": "accounts@orbispackaging.example.com",
+    "phone": "+91 98222 33445",
+    "currency": "INR",
+    "tax_id": "29AABCO5678G1Z2",
+    "payment_terms": "Net 30"
+  },
+  {
+    "id": "CUST-003",
+    "name": "Quillon Tech Innovations",
+    "country": "India",
+    "contact_name": "Naveen Sundaram",
+    "contact_email": "finance@quillontech.example.com",
+    "phone": "+91 98333 44556",
+    "currency": "INR",
+    "tax_id": "07AABCQ9012H1Z9",
+    "payment_terms": "Net 30"
+  },
+  {
+    "id": "CUST-004",
+    "name": "Nordlys Retail AB",
+    "country": "Sweden",
+    "contact_name": "Astrid Lindgren",
+    "contact_email": "ap@nordlysretail.example.com",
+    "phone": "+46 8 123 4567",
+    "currency": "EUR",
+    "tax_id": "SE556123456701",
+    "payment_terms": "Net 30"
+  },
+  {
+    "id": "CUST-005",
+    "name": "Harbour Analytics Inc",
+    "country": "United States",
+    "contact_name": "David Miller",
+    "contact_email": "payments@harbouranalytics.example.com",
+    "phone": "+1 415 555 0199",
+    "currency": "USD",
+    "tax_id": "US-EIN-987654321",
+    "payment_terms": "Net 30"
+  },
+  {
+    "id": "CUST-006",
+    "name": "Brightline Logistics Pvt Ltd",
+    "country": "India",
+    "contact_name": "Vikram Rathore",
+    "contact_email": "accounts@brightlinelogistics.example.com",
+    "phone": "+91 98444 55667",
+    "currency": "INR",
+    "tax_id": "24AABCB3456K1Z1",
+    "payment_terms": "Net 30"
+  },
+  {
+    "id": "CUST-007",
+    "name": "Redwood Medical Clinic",
+    "country": "India",
+    "contact_name": "Dr. Sameer Joshi",
+    "contact_email": "dr.redwood@redwoodclinic.example.com",
+    "phone": "+91 98555 66778",
+    "currency": "INR",
+    "tax_id": "27AABCR7890L1Z4",
+    "payment_terms": "Net 30"
+  },
+  {
+    "id": "CUST-008",
+    "name": "Thornfield Media UK Ltd",
+    "country": "United Kingdom",
+    "contact_name": "Charlotte Bronte",
+    "contact_email": "billing@thornfieldmedia.example.com",
+    "phone": "+44 20 7946 0912",
+    "currency": "GBP",
+    "tax_id": "GB987654321",
+    "payment_terms": "Net 30"
+  },
+  {
+    "id": "CUST-009",
+    "name": "Saffron Peak Hospital",
+    "country": "India",
+    "contact_name": "Kavita Rao",
+    "contact_email": "accounts@saffronpeakhosp.example.com",
+    "phone": "+91 98666 77889",
+    "currency": "INR",
+    "tax_id": "03AABCS1234M1Z3",
+    "payment_terms": "Net 30"
+  },
+  {
+    "id": "CUST-010",
+    "name": "R K Sharma Clinics",
+    "country": "India",
+    "contact_name": "Rajesh Sharma",
+    "contact_email": "rksharma@sharmaclinic.example.com",
+    "phone": "+91 98777 88990",
+    "currency": "INR",
+    "tax_id": "06AABCS5678N1Z7",
+    "payment_terms": "Net 30"
+  },
+  {
+    "id": "CUST-011",
+    "name": "Maple Retail Services",
+    "country": "India",
+    "contact_name": "Suresh Nair",
+    "contact_email": "admin@mapleretail.example.com",
+    "phone": "+91 98888 99001",
+    "currency": "INR",
+    "tax_id": "32AABCM9012P1Z5",
+    "payment_terms": "Net 30"
+  }
+]

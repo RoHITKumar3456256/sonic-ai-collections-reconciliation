@@ -1,0 +1,270 @@
+[
+  {
+    "id": "INV-1001",
+    "invoice_number": "INV-1001",
+    "customer_id": "CUST-003",
+    "customer_name": "Quillon Tech Innovations",
+    "issue_date": "2026-08-15",
+    "due_date": "2026-09-14",
+    "currency": "INR",
+    "subtotal": 300000.00,
+    "tax": 54000.00,
+    "total": 354000.00,
+    "paid_amount": 0.00,
+    "balance_due": 354000.00,
+    "status": "sent",
+    "description": "Enterprise Cloud Platform Services - August 2026",
+    "items": [
+      { "description": "Cloud Core License", "quantity": 1, "unit_price": 200000.00, "amount": 200000.00 },
+      { "description": "Data Pipeline Support", "quantity": 1, "unit_price": 100000.00, "amount": 100000.00 }
+    ],
+    "notes": "Subject to standard 10% TDS deduction on subtotal upon submission of Form 16A."
+  },
+  {
+    "id": "INV-1002",
+    "invoice_number": "INV-1002",
+    "customer_id": "CUST-006",
+    "customer_name": "Brightline Logistics Pvt Ltd",
+    "issue_date": "2026-08-28",
+    "due_date": "2026-09-28",
+    "currency": "INR",
+    "subtotal": 200000.00,
+    "tax": 36000.00,
+    "total": 236000.00,
+    "paid_amount": 0.00,
+    "balance_due": 236000.00,
+    "status": "sent",
+    "description": "Fleet Routing Optimization API - Q3 2026",
+    "items": [
+      { "description": "Fleet Telematics API", "quantity": 1, "unit_price": 200000.00, "amount": 200000.00 }
+    ]
+  },
+  {
+    "id": "INV-1003",
+    "invoice_number": "INV-1003",
+    "customer_id": "CUST-002",
+    "customer_name": "Orbis Packaging Solutions",
+    "issue_date": "2026-08-05",
+    "due_date": "2026-09-04",
+    "currency": "INR",
+    "subtotal": 250000.00,
+    "tax": 45000.00,
+    "total": 295000.00,
+    "paid_amount": 0.00,
+    "balance_due": 295000.00,
+    "status": "sent",
+    "description": "Inventory Automation System Annual Fee",
+    "items": [
+      { "description": "Annual Maintenance & License", "quantity": 1, "unit_price": 250000.00, "amount": 250000.00 }
+    ]
+  },
+  {
+    "id": "INV-1004",
+    "invoice_number": "INV-1004",
+    "customer_id": "CUST-001",
+    "customer_name": "Kestrel Foods Ltd",
+    "issue_date": "2026-08-01",
+    "due_date": "2026-08-31",
+    "currency": "INR",
+    "subtotal": 50000.00,
+    "tax": 9000.00,
+    "total": 59000.00,
+    "paid_amount": 0.00,
+    "balance_due": 59000.00,
+    "status": "sent",
+    "description": "Quality Assurance Testing Module Setup",
+    "items": [
+      { "description": "Module Installation", "quantity": 1, "unit_price": 50000.00, "amount": 50000.00 }
+    ]
+  },
+  {
+    "id": "INV-1005",
+    "invoice_number": "INV-1005",
+    "customer_id": "CUST-007",
+    "customer_name": "Redwood Medical Clinic",
+    "issue_date": "2026-09-01",
+    "due_date": "2026-10-01",
+    "currency": "INR",
+    "subtotal": 50000.00,
+    "tax": 9000.00,
+    "total": 59000.00,
+    "paid_amount": 0.00,
+    "balance_due": 59000.00,
+    "status": "sent",
+    "description": "Patient Portal Integration Services",
+    "items": [
+      { "description": "API Integration", "quantity": 1, "unit_price": 50000.00, "amount": 50000.00 }
+    ]
+  },
+  {
+    "id": "INV-1008",
+    "invoice_number": "INV-1008",
+    "customer_id": "CUST-009",
+    "customer_name": "Saffron Peak Hospital",
+    "issue_date": "2026-09-10",
+    "due_date": "2026-10-10",
+    "currency": "INR",
+    "subtotal": 165000.00,
+    "tax": 29700.00,
+    "total": 194700.00,
+    "paid_amount": 0.00,
+    "balance_due": 194700.00,
+    "status": "sent",
+    "description": "Hospital Operations Management System Q3",
+    "items": [
+      { "description": "HIMS System Subscription", "quantity": 1, "unit_price": 165000.00, "amount": 165000.00 }
+    ]
+  },
+  {
+    "id": "INV-1009",
+    "invoice_number": "INV-1009",
+    "customer_id": "CUST-010",
+    "customer_name": "R K Sharma Clinics",
+    "issue_date": "2026-09-15",
+    "due_date": "2026-10-15",
+    "currency": "INR",
+    "subtotal": 75000.00,
+    "tax": 13500.00,
+    "total": 88500.00,
+    "paid_amount": 0.00,
+    "balance_due": 88500.00,
+    "status": "sent",
+    "description": "Telehealth Consulting Software License",
+    "items": [
+      { "description": "Software Subscription", "quantity": 1, "unit_price": 75000.00, "amount": 75000.00 }
+    ]
+  },
+  {
+    "id": "INV-1010",
+    "invoice_number": "INV-1010",
+    "customer_id": "CUST-011",
+    "customer_name": "Maple Retail Services",
+    "issue_date": "2026-09-20",
+    "due_date": "2026-10-20",
+    "currency": "INR",
+    "subtotal": 10805.08,
+    "tax": 1944.92,
+    "total": 12750.00,
+    "paid_amount": 0.00,
+    "balance_due": 12750.00,
+    "status": "sent",
+    "description": "POS Barcode Sync Services",
+    "items": [
+      { "description": "POS Sync Connector", "quantity": 1, "unit_price": 10805.08, "amount": 10805.08 }
+    ]
+  },
+  {
+    "id": "INV-1012",
+    "invoice_number": "INV-1012",
+    "customer_id": "CUST-001",
+    "customer_name": "Kestrel Foods Ltd",
+    "issue_date": "2026-07-01",
+    "due_date": "2026-07-31",
+    "currency": "INR",
+    "subtotal": 33898.31,
+    "tax": 6101.69,
+    "total": 40000.00,
+    "paid_amount": 40000.00,
+    "balance_due": 0.00,
+    "status": "paid",
+    "description": "Legacy Data Migration Work",
+    "items": [
+      { "description": "Data Migration", "quantity": 1, "unit_price": 33898.31, "amount": 33898.31 }
+    ]
+  },
+  {
+    "id": "INV-1015",
+    "invoice_number": "INV-1015",
+    "customer_id": "CUST-002",
+    "customer_name": "Orbis Packaging Solutions",
+    "issue_date": "2026-10-25",
+    "due_date": "2026-11-25",
+    "currency": "INR",
+    "subtotal": 127118.64,
+    "tax": 22881.36,
+    "total": 150000.00,
+    "paid_amount": 0.00,
+    "balance_due": 150000.00,
+    "status": "draft",
+    "description": "Custom Workflow Enhancement Draft",
+    "items": [
+      { "description": "Development Sprint", "quantity": 1, "unit_price": 127118.64, "amount": 127118.64 }
+    ]
+  },
+  {
+    "id": "INV-1016",
+    "invoice_number": "INV-1016",
+    "customer_id": "CUST-003",
+    "customer_name": "Quillon Tech Innovations",
+    "issue_date": "2026-11-01",
+    "due_date": "2026-12-01",
+    "currency": "INR",
+    "subtotal": 67796.61,
+    "tax": 12203.39,
+    "total": 80000.00,
+    "paid_amount": 0.00,
+    "balance_due": 80000.00,
+    "status": "sent",
+    "description": "November Support Retainer (Upcoming)",
+    "items": [
+      { "description": "Support Hours Retainer", "quantity": 1, "unit_price": 67796.61, "amount": 67796.61 }
+    ]
+  },
+  {
+    "id": "INV-1021",
+    "invoice_number": "INV-1021",
+    "customer_id": "CUST-005",
+    "customer_name": "Harbour Analytics Inc",
+    "issue_date": "2026-08-25",
+    "due_date": "2026-09-24",
+    "currency": "USD",
+    "subtotal": 12500.00,
+    "tax": 0.00,
+    "total": 12500.00,
+    "paid_amount": 0.00,
+    "balance_due": 12500.00,
+    "status": "sent",
+    "description": "Cross-border Data Pipeline Hosting",
+    "items": [
+      { "description": "Managed Hosting Monthly", "quantity": 1, "unit_price": 12500.00, "amount": 12500.00 }
+    ]
+  },
+  {
+    "id": "INV-1022",
+    "invoice_number": "INV-1022",
+    "customer_id": "CUST-008",
+    "customer_name": "Thornfield Media UK Ltd",
+    "issue_date": "2026-09-05",
+    "due_date": "2026-10-05",
+    "currency": "GBP",
+    "subtotal": 7350.50,
+    "tax": 0.00,
+    "total": 7350.50,
+    "paid_amount": 0.00,
+    "balance_due": 7350.50,
+    "status": "sent",
+    "description": "UK Media Asset Indexing Services",
+    "items": [
+      { "description": "Media Indexing Platform", "quantity": 1, "unit_price": 7350.50, "amount": 7350.50 }
+    ]
+  },
+  {
+    "id": "INV-1024",
+    "invoice_number": "INV-1024",
+    "customer_id": "CUST-004",
+    "customer_name": "Nordlys Retail AB",
+    "issue_date": "2026-08-20",
+    "due_date": "2026-09-20",
+    "currency": "EUR",
+    "subtotal": 9200.00,
+    "tax": 0.00,
+    "total": 9200.00,
+    "balance_due": 9200.00,
+    "paid_amount": 0.00,
+    "status": "sent",
+    "description": "Nordic Logistics Connector",
+    "items": [
+      { "description": "Logistics Sync API", "quantity": 1, "unit_price": 9200.00, "amount": 9200.00 }
+    ]
+  }
+]
