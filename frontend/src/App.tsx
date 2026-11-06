@@ -105,24 +105,26 @@ export const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-slate-950 text-slate-100">
-      <Navbar
-        health={health}
-        onResetDemo={handleResetDemo}
-        resetting={resetting}
+    <div className="min-h-screen flex bg-[#f8fafc] text-slate-800">
+      {/* Dark sleek sidebar matching Image 2 */}
+      <Sidebar
+        activeTab={activeTab}
+        setActiveTab={setActiveTab}
+        reviewCount={reviews.length}
       />
 
-      <div className="flex flex-1 overflow-hidden">
-        <Sidebar
-          activeTab={activeTab}
-          setActiveTab={setActiveTab}
-          reviewCount={reviews.length}
+      {/* Main Content Area with Light Canvas matching Images 1, 2, 3, 4, 5 */}
+      <div className="flex-1 flex flex-col min-w-0 overflow-hidden">
+        <Navbar
+          health={health}
+          onResetDemo={handleResetDemo}
+          resetting={resetting}
         />
 
-        <main className="flex-1 overflow-y-auto p-6 md:p-8 bg-slate-950/80">
+        <main className="flex-1 overflow-y-auto p-6 md:p-8 bg-[#f8fafc]">
           {loading ? (
             <div className="flex items-center justify-center h-64 space-x-3 text-slate-400">
-              <div className="w-5 h-5 border-2 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+              <div className="w-5 h-5 border-2 border-blue-600 border-t-transparent rounded-full animate-spin"></div>
               <span className="text-sm font-medium">Connecting to Sonic AI backend...</span>
             </div>
           ) : (

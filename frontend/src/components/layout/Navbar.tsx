@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck, RefreshCw, Zap, Server } from 'lucide-react';
+import { RefreshCw, Search, Bell, Clock, ShieldCheck, Server, User, Sparkles } from 'lucide-react';
 import { HealthStatus } from '../../types';
 
 interface NavbarProps {
@@ -10,52 +10,61 @@ interface NavbarProps {
 
 export const Navbar: React.FC<NavbarProps> = ({ health, onResetDemo, resetting }) => {
   return (
-    <header className="h-16 border-b border-slate-800 bg-slate-900/90 backdrop-blur-md px-6 flex items-center justify-between sticky top-0 z-40">
-      <div className="flex items-center space-x-3">
-        <div className="w-9 h-9 rounded-lg bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center shadow-lg shadow-blue-500/20">
-          <Zap className="w-5 h-5 text-white" />
-        </div>
-        <div>
-          <div className="flex items-center space-x-2">
-            <span className="font-bold text-lg tracking-tight text-white">Sonic<span className="text-blue-500">.AI</span></span>
-            <span className="text-[10px] uppercase font-semibold px-2 py-0.5 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">
-              Collections & Recon
-            </span>
-          </div>
-          <p className="text-xs text-slate-400">AcmeCorp India Pvt Ltd • Accounts Receivables</p>
+    <header className="h-16 border-b border-slate-200/80 bg-white/95 backdrop-blur-md px-6 flex items-center justify-between sticky top-0 z-40">
+      {/* Search Input matching Reference UI */}
+      <div className="flex items-center space-x-3 w-96">
+        <div className="relative w-full">
+          <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+          <input
+            type="text"
+            placeholder="Search invoices, transactions, customers..."
+            className="w-full pl-9 pr-3 py-1.5 bg-slate-100/70 border border-transparent hover:border-slate-300 focus:border-blue-500 rounded-xl text-xs text-slate-800 placeholder-slate-400 focus:outline-none transition"
+          />
         </div>
       </div>
 
       <div className="flex items-center space-x-4">
+        {/* Backend & DB Health Indicator */}
         {health && (
-          <div className="hidden md:flex items-center space-x-3 text-xs bg-slate-800/80 px-3 py-1.5 rounded-full border border-slate-700/50">
-            <div className="flex items-center space-x-1.5">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-              <span className="text-slate-300">FastAPI API</span>
-            </div>
-            <span className="text-slate-600">•</span>
-            <div className="flex items-center space-x-1.5 text-slate-300">
-              <Server className="w-3.5 h-3.5 text-slate-400" />
-              <span>{health.database_mode}</span>
-            </div>
-            <span className="text-slate-600">•</span>
-            <div className="flex items-center space-x-1 text-slate-300">
-              <span className={health.gemini_configured ? "text-emerald-400" : "text-amber-400"}>
-                {health.gemini_configured ? "Gemini Live" : "Rule-Engine Fallback"}
-              </span>
-            </div>
+          <div className="hidden lg:flex items-center space-x-2 text-xs bg-slate-100/80 px-3 py-1.5 rounded-full border border-slate-200 text-slate-600">
+            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            <span className="font-medium text-slate-700">FastAPI Live</span>
+            <span className="text-slate-300">•</span>
+            <span className="font-mono text-[11px] text-slate-500">{health.database_mode}</span>
+            <span className="text-slate-300">•</span>
+            <span className={`text-[11px] font-semibold ${health.gemini_configured ? "text-emerald-600" : "text-amber-600"}`}>
+              {health.gemini_configured ? "Gemini Live" : "Rule Engine Fallback"}
+            </span>
           </div>
         )}
 
+        {/* Demo Reset Button */}
         <button
           onClick={onResetDemo}
           disabled={resetting}
-          className="flex items-center space-x-1.5 text-xs font-medium px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 transition"
-          title="Restore pristine seed data and clear test actions"
+          className="flex items-center space-x-1.5 text-xs font-semibold px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200/80 text-slate-700 border border-slate-200 transition"
+          title="Restore pristine seed data"
         >
-          <RefreshCw className={`w-3.5 h-3.5 ${resetting ? 'animate-spin text-blue-400' : ''}`} />
+          <RefreshCw className={`w-3.5 h-3.5 ${resetting ? 'animate-spin text-blue-600' : 'text-slate-500'}`} />
           <span>{resetting ? 'Resetting...' : 'Reset Demo Data'}</span>
         </button>
+
+        {/* Action icons */}
+        <div className="flex items-center space-x-2 border-l border-slate-200 pl-4">
+          <button className="p-2 rounded-xl text-slate-400 hover:text-slate-600 hover:bg-slate-100 transition relative">
+            <Bell className="w-4 h-4" />
+            <span className="w-2 h-2 rounded-full bg-blue-600 absolute top-1.5 right-1.5"></span>
+          </button>
+          <div className="flex items-center space-x-2 pl-1 cursor-pointer">
+            <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-white font-semibold text-xs shadow-sm">
+              AC
+            </div>
+            <div className="hidden sm:block text-left">
+              <div className="text-xs font-bold text-slate-800 leading-none">AcmeCorp</div>
+              <div className="text-[10px] text-slate-400 mt-0.5">Accounts Admin</div>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
   );
