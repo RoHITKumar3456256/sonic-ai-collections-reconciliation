@@ -51,3 +51,8 @@ frontend/dist-ssr/
 .DS_Store
 Thumbs.db
 
+# Video recordings
+docs/demo_videos/
+*.webm
+
+

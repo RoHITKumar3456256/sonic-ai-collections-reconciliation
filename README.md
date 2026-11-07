@@ -126,6 +126,9 @@ Run the backend test suite:
 
 ## 🎬 3-Minute Demo Video Walkthrough
 
+> **Direct Download / Playback:** [Watch Full 1080p Demo Video](docs/sonic_ai_demo_walkthrough.mp4) (H.264 MP4, 1m 53s full walkthrough)  
+> **Automated Video Generator:** Run `python scripts/record_demo_video.py` to regenerate the full HD walkthrough video at any time.
+
 Recommended demonstration recording flow:
 
 | Timestamp | Screen | Key Demonstration Action |
