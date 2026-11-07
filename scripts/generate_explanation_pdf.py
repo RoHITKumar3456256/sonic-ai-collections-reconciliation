@@ -179,11 +179,21 @@ def generate_pdf():
     # Section 4: Architecture & Tech Stack
     story.append(Paragraph("4. Technical Stack & Deployment Integrity", h2_style))
     story.append(Paragraph(
-        "• <b>Frontend:</b> React 18 + TypeScript + Vite + Tailwind CSS with modern B2B fintech UI (Linear/Stripe inspired).<br/>"
+        "• <b>Frontend:</b> React 18 + TypeScript + Vite + Tailwind CSS with modern B2B fintech UI (FinTrackr, Monexa, and Callour inspired).<br/>"
         "• <b>Backend:</b> Python FastAPI with Pydantic v2 schemas and modular service-repository architecture.<br/>"
         "• <b>Database:</b> PyMongo connected to MongoDB Atlas / local MongoDB, with automatic fallback to high-fidelity in-memory <code>mongomock</code> for zero-setup evaluation.<br/>"
-        "• <b>AI / LLM:</b> Google Gemini API with fallback rule engine when running offline or without credentials.<br/>"
-        "• <b>Auditing:</b> Complete audit logging tracks every customer update, email send, and reconciliation approval.",
+        "• <b>AI / LLM:</b> Google Gemini 2.5 Flash API with fact-verification gate and fallback rule engine.<br/>"
+        "• <b>Auditing:</b> Complete audit logging tracks every customer update, email send, and reconciliation approval.<br/>"
+        "• <b>Testing:</b> 14/14 automated tests passing covering dynamic overdue calculation, fact-checking, TDS calculations, and idempotent approvals.",
+        body_style
+    ))
+
+    # Section 5: Demo Video & Repository
+    story.append(Paragraph("5. Demonstration Video & Repository Resources", h2_style))
+    story.append(Paragraph(
+        "• <b>GitHub Repository:</b> <font color='#2563eb'><u>https://github.com/RoHITKumar3456256/sonic-ai-collections-reconciliation</u></font><br/>"
+        "• <b>1080p Full HD Demo Video:</b> Included directly in repository at <code>docs/sonic_ai_demo_walkthrough.mp4</code> (1m 53s full walkthrough).<br/>"
+        "• <b>Automated Video Recorder:</b> Reproducible via <code>python scripts/record_demo_video.py</code> using Playwright and FFmpeg.",
         body_style
     ))
 
