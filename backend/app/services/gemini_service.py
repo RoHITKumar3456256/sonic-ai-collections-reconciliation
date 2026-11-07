@@ -187,7 +187,7 @@ async def classify_and_draft_reply(
     try:
         import google.generativeai as genai
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel(settings.GEMINI_MODEL or "gemini-1.5-flash")
+        model = genai.GenerativeModel(settings.GEMINI_MODEL or "gemini-2.5-flash")
 
         # Prepare isolated customer context
         inv_context = []
